@@ -14,16 +14,16 @@ CMD = [ "/" , "!" , "." ]
 
 user_start_btn = [
     [
-        InlineKeyboardButton(text = 'Source Code 🔥', url = 'https://github.com/AbOutMeDK/tgBaSiCbOt')
+        InlineKeyboardButton(text = 'Developer 💤', url = 'https://github.com/DroppedPyDev')
     ],
     [
-        InlineKeyboardButton(text = 'Support Group 🎉', url = 'https://t.me/BasicBotChat')
+        InlineKeyboardButton(text = 'Updates ♻️', url = 'https://t.me/DPDHubServer')
     ]
 ]
 
 owner_start_btn = [
     [
-        InlineKeyboardButton(text = 'What to Do Next?', callback_data = "next")
+        InlineKeyboardButton(text = 'Click >', callback_data = "next")
     ]
 ]
 
