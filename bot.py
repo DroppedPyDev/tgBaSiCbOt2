@@ -32,7 +32,7 @@ class Bot(Client):
         usr_bot_me = await self.get_me()
         self.uptime = datetime.now()
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"𝘼𝙗𝙊𝙪𝙩𝙈𝙚_𝘿𝙆 ⚡")
+        self.LOGGER(__name__).info(f"DroppedPyDev 🕊️")
        
         #web-response
         app = web.AppRunner(await web_server())
