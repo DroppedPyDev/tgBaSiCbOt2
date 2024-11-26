@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 from time import time
 
 #Your API ID from my.telegram.org
-API_ID = int(os.environ.get("API_ID", "2195622"))
+API_ID = os.environ.get("API_ID", "2195622")
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "fe9031812730b93d59b43a33b1db17ca")
@@ -15,7 +15,7 @@ API_HASH = os.environ.get("API_HASH", "fe9031812730b93d59b43a33b1db17ca")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7024917939:AAH1F9VhBNfWBvJV73NLumA3CbzYGpO9xLs")
 
 #Get your Telegram ID from @tgBaSiCbOt using "/id" command.
-OWNER_ID = int(os.environ.get("OWNER_ID", "1981831553"))
+OWNER_ID = os.environ.get("OWNER_ID", "1981831553")
 
 #No Need to Change This 
 PORT = os.environ.get("PORT", "8080")
